@@ -1,13 +1,13 @@
 {
-  "name": "iStudy-Client",
+  "name":"coursehub-client",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
     "webpack": "./node_modules/webpack/bin/webpack.js",
-    "build": "npm run webpack",
-    "start": "webpack-dev-server",
+    "build": "npm run clean && webpack",
+    "start": "npm run clean && webpack-dev-server",
     "deploy": "NODE_ENV=production npm run clean && npm run webpack -p"
   },
   "author": "",

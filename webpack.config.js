@@ -22,7 +22,7 @@ module.exports = {
         vendor: VENDOR_LIBS
     },
     output: {
-        path: path.resolve(__dirname, '/'),
+        path: path.resolve(__dirname, '/build'),
         filename: '[name].js',
         publicPath: '/'
     },
