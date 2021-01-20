@@ -6,8 +6,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "webpack": "./node_modules/webpack/bin/webpack.js",
-    "build": "npm run clean && npm run webpack",
-    "start": "npm run clean && webpack-dev-server",
+    "build": "npm run webpack",
+    "start": "webpack-dev-server",
     "deploy": "NODE_ENV=production npm run clean && npm run webpack -p"
   },
   "author": "",
