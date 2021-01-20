@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 import {history} from '../routes';
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 
 export const FETCH_LECTURE_FAILURE = 'FETCH_LECTURE_FAILURE';
 export const FETCH_LECTURE_LOADING = 'FETCH_LECTURE_LOADING';

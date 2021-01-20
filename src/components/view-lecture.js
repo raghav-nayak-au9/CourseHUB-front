@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 
 import '../../styles/detail.css';
 import '../../styles/video.css';

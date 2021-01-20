@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 import {history} from '../routes';
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 
 export const RESET_COMMENT = 'RESET_COMMENT';
 export const ADD_COMMENT = 'ADD_COMMENT';

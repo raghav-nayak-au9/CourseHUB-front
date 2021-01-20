@@ -14,7 +14,7 @@ import {withRouter} from 'react-router-dom';
 import {connect} from 'react-redux';
 import {userInfo} from '../actions';
 
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 
 class Header extends Component {
     constructor(props) {
@@ -73,7 +73,7 @@ class Header extends Component {
                     padding:0,
                     width:'100%',
                     height:'220px',
-                    backgroundImage: `url(/public/assets/images/office.jpg)`,
+                    backgroundImage: `url(https://i.ibb.co/80xkkYL/avatar-1.jpg)`,
                     backgroundSize: '100%'
                 }} onClick={(e) => {e.preventDefault(); this.handleClose();}}>
                     <div style={{overflow:'hidden', margin:0, paddingTop:20, paddingBottom:0, paddingLeft:20, paddingRight:20}}>

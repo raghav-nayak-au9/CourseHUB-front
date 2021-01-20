@@ -1,7 +1,7 @@
 import _ from 'lodash';
 const rand = require('random-seed').create();
 import dateFormat from 'dateformat';
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';

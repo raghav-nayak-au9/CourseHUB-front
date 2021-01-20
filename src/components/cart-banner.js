@@ -9,7 +9,7 @@ import {connect} from 'react-redux';
 import {buyCourse, addCart} from '../actions/cart';
 import {userInfo} from '../actions';
 
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 
 import SignIn from '../auth/signin';
 

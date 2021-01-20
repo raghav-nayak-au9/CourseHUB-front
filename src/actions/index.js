@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 import {history} from '../routes';
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 
 export const USER_INFO = 'USER_INFO';
 export const SIGN_IN = 'SIGN_IN';

@@ -13,7 +13,7 @@ import centerComponent from 'react-center-component';
 import CircularProgress from 'material-ui/CircularProgress';
 import Equalizer from 'react-equalizer';
 
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 
 import Header from './header';
 import Footer from './footer';

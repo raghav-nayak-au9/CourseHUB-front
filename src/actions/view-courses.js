@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 
 export const VIEW_COURSES_ERROR = 'VIEW_COURSES_ERROR';
 export const VIEW_COURSES_LOADING = 'VIEW_COURSES_LOADING';

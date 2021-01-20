@@ -2,7 +2,7 @@ import _ from 'lodash';
 import axios from 'axios';
 
 import {history} from '../routes';
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 import {signError} from './index';
 
 export const ADD_CART = 'ADD_CART';

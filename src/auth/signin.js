@@ -11,7 +11,7 @@ import centerComponent from 'react-center-component';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import {hostUrl} from '../../config';
+import {hostUrl} from 'https://coursehub-server.herokuapp.com';
 
 @centerComponent
 class Signin extends Component {
